@@ -154,14 +154,3 @@ def big_shoe_rebounds
   big_foot = game_hash[:home][:players].max_by{|i, s| s.fetch(:shoe)}[1]
   big_foot.fetch(:rebounds)
 end
-
-
-
-
-
-
-
-
-
-
-
